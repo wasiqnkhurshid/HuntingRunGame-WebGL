@@ -1,10 +1,7 @@
 # Hunting Run — Prototype V0.1
 
-Play on a phone in portrait orientation:
-https://wasiqnkhurshid.github.io/HuntingRunGame-WebGL/
+[Play in a phone browser](https://wasiqnkhurshid.github.io/HuntingRunGame-WebGL/)
 
-Swipe left/right to change lanes, up to jump, and down to duck. Tap Shoot to fire. One run lasts about 90 seconds.
+Third physical playtest iteration (GDD v0.7), 2 October 2026. Choose Easy, Medium or Hard in Preparation. Each run lasts 90 seconds. Hold your phone in portrait; swipe to move, jump and duck, and tap Shoot.
 
-This repository contains the compiled browser playtest build. Game progress and playtest logs stay in the browser; Results offers an export button for feedback.
-
-Current build: Prototype V0.1, GDD v0.6 tuning, published 2 October 2026.
+This repository contains the compiled Unity WebGL build only. Source and design documents remain in the private HuntingRunGame repository. Results offers a local playtest-log export; no account or external analytics is required.
