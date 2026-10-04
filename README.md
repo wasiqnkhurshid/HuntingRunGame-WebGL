@@ -2,6 +2,8 @@
 
 [Play in a phone browser](https://wasiqnkhurshid.github.io/HuntingRunGame-WebGL/)
 
-Tuning revision 0.9.1, 4 October 2026. Start a single Prototype Run at 29 m/s for 90 seconds. Jump motion is quicker, branches are rare and the camera follows closer. Hold your phone in portrait; swipe to move, jump and duck, and tap Shoot.
+The temporary **CONTROL LAB** entry on the title/main menu opens Movement Lab and Shooting Lab for stationary control testing. Shooting Lab has unlimited ammo, zero cooldown and configurable static/moving animal targets. No lab progress is saved. Open Targets / Spawn for distance, lane, flight height and auto-respawn controls.
 
-This repository contains the compiled Unity WebGL build only. Source and design documents remain in the private HuntingRunGame repository. Results offers a local playtest-log export; no account or external analytics is required.
+The normal **Prototype Run** remains unchanged at tuning revision 0.9.1: 29 m/s for 90 seconds, finite arrows and a 2.2-second shooting cooldown. Hold your phone in portrait; swipe to move, jump and duck, and tap Shoot.
+
+Published 5 October 2026. This repository contains the compiled Unity WebGL test build only. Source and Markdown development documentation remain in the private HuntingRunGame repository. No account is required. WebGL haptics currently remain a no-op; physical phone comfort and performance still need device testing.
