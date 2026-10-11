@@ -1,15 +1,13 @@
-# Hunting Run — Gameplay Update09
+# Hunting Run — Gameplay Update10
 
-[Play in a phone or desktop browser](https://wasiqnkhurshid.github.io/HuntingRunGame-WebGL/)
+[Play in your phone or desktop browser](https://wasiqnkhurshid.github.io/HuntingRunGame-WebGL/)
 
-32 m/s for 90 seconds, Prototype08 Closer camera, and displacement-based touch input with held gesture chaining. Swipe to change lanes, jump or duck; tap Shoot. Keyboard: A/D or arrows, W/Space jumps, S ducks, Enter shoots, Escape pauses.
+32 m/s / 90 seconds, Closer camera, Hunter V3 Prototype04 and Jungle Prototype06. Swipe to move/jump/duck; tap Shoot. Held gestures recognize deliberate turns and short reversals without requiring lift. Shooting retains finite arrows and its 2.2-second cooldown. A contact beginning on Shoot stays UI-owned; a separate movement finger can swipe while Shoot is held.
 
-Shooting retains finite arrows and a 2.2-second cooldown. Control Lab remains available for isolated movement and shooting tests. Hunter V3 Prototype04 and Jungle Prototype06 artwork are preserved.
+Source: `195e0da36b35a74d9995e85ecdc65581470de227`. Build: `gameplay10` (Unity 6000.6.0f1 / URP / WebGL). This repository contains compiled files only. Desktop Chrome synthesized touch and Unity simulation passed; physical Android/iPhone feel, Safari and sustained mobile performance remain unverified. WebGL haptics remain unavailable.
 
-Source: `e587a92689d62436558be77ce2ac2c6dd401ec0f`. Build: `gameplay09-0.9.2` (Unity 6000.6.0f1 / URP / WebGL). This public repository contains compiled files only. Physical Android/iPhone feel and sustained performance still require device testing; browser checks used desktop Chrome touch simulation. WebGL haptics remain unavailable.
-
-Profile saves are preserved. Older interruption snapshots are discarded because the speed changes the generated layout. Prototype08 saves remain isolated in their original database and its repository/history is retained.
+Keyboard: A/D or arrows move, W/Space jumps, S ducks, Enter shoots, Escape pauses. Existing saves and reset functionality remain available. Previous checkpoints/history are preserved.
 
 ## Rollback
 
-Restore tag `pre-gameplay09-fdd96eb` into a new commit on main and push. This restores the previous Prototype07 files without rewriting history. The previous release is also retained at tag `prototype07-97e2e44`.
+Restore tag `pre-gameplay10-b101532` into a new commit on main and push. This restores Gameplay09 without rewriting history or changing hosting configuration. Previous source is `665acb5546b4d738af49535e3b271b05952262ea` (implementation `e587a92689d62436558be77ce2ac2c6dd401ec0f`).
