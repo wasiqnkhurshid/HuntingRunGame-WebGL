@@ -1,9 +1,15 @@
-# Hunting Run — Prototype V0.1
+# Hunting Run — Gameplay Update09
 
-[Play in a phone browser](https://wasiqnkhurshid.github.io/HuntingRunGame-WebGL/)
+[Play in a phone or desktop browser](https://wasiqnkhurshid.github.io/HuntingRunGame-WebGL/)
 
-The temporary **CONTROL LAB** entry on the title/main menu opens Movement Lab and Shooting Lab for stationary control testing. Shooting Lab has unlimited ammo, zero cooldown and configurable static/moving animal targets. No lab progress is saved. Open Targets / Spawn for distance, lane, flight height and auto-respawn controls.
+32 m/s for 90 seconds, Prototype08 Closer camera, and displacement-based touch input with held gesture chaining. Swipe to change lanes, jump or duck; tap Shoot. Keyboard: A/D or arrows, W/Space jumps, S ducks, Enter shoots, Escape pauses.
 
-The normal **Prototype Run** remains unchanged at tuning revision 0.9.1: 29 m/s for 90 seconds, finite arrows and a 2.2-second shooting cooldown. Hold your phone in portrait; swipe to move, jump and duck, and tap Shoot.
+Shooting retains finite arrows and a 2.2-second cooldown. Control Lab remains available for isolated movement and shooting tests. Hunter V3 Prototype04 and Jungle Prototype06 artwork are preserved.
 
-Published 9 October 2026 — Prototype07 browser playtest. The boy hunter uses Hunter V3 Prototype04 with Jungle Prototype06; the girl choice retains its existing fallback. Build reference: `prototype07-97e2e44`. This repository contains the compiled Unity WebGL test build only. Source and Markdown development documentation remain in the private HuntingRunGame repository. No account is required. WebGL haptics currently remain a no-op; physical phone comfort and performance still need device testing.
+Source: `e587a92689d62436558be77ce2ac2c6dd401ec0f`. Build: `gameplay09-0.9.2` (Unity 6000.6.0f1 / URP / WebGL). This public repository contains compiled files only. Physical Android/iPhone feel and sustained performance still require device testing; browser checks used desktop Chrome touch simulation. WebGL haptics remain unavailable.
+
+Profile saves are preserved. Older interruption snapshots are discarded because the speed changes the generated layout. Prototype08 saves remain isolated in their original database and its repository/history is retained.
+
+## Rollback
+
+Restore tag `pre-gameplay09-fdd96eb` into a new commit on main and push. This restores the previous Prototype07 files without rewriting history. The previous release is also retained at tag `prototype07-97e2e44`.
